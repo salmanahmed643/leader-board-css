@@ -131,6 +131,7 @@ hr {
 }
 .blog {
     display: flex;
+    
 }
 .blog_img img {
     width: 177px;
@@ -256,18 +257,20 @@ hr {
         flex-direction: column;
         align-items: center;
     }
+    .blog_img {
+        text-align: center;
+    }
     .blog_img img {
-        width: 400px;
-        height: 200px;
-        margin-top: 20px;
+        width: 50%;
+        height: auto;
     }
     .blog_detail {
-        width: 320px;
+        width: 40%;
         text-align: center;
         margin-top: 15px;
     }
     .custom_width {
-        width: 320px;
+        width: 45%;
     }
     .courses {
         grid-row-gap: 23.61px;
